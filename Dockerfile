@@ -15,4 +15,4 @@ RUN pip install -r question-2/requirements.txt
 EXPOSE 8501
 
 # Run streamlit when the container launches
-CMD ["streamlit", "run", "question-2/app.py"]
+CMD ["streamlit", "run", "question-2/taskstatus.py"]
